@@ -44,7 +44,6 @@ class Rucha:
                     self.scoreboard.high_score = int(highscore.read())
                     self.scoreboard.prep_highscore()
                 except ValueError:
-                    print('hello')
                     pass
         except FileNotFoundError:
                 pass
